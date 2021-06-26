@@ -19,6 +19,10 @@ public class BitArithmetic {
         System.out.println("2 | 4 = " + ALL_FLAGS);
         System.out.println("~(2 | 4) = " + ~ALL_FLAGS);
         System.out.println("-3 & ~(2 | 4) = " + (x & ~ALL_FLAGS));
+        // 6.异或^
+        // 7.左移<<
+        // 8.右移>>
+        // 9.无符号右移>>>
         if ((0 & ~ALL_FLAGS) != 0) {
             System.out.println(false);
         } else {
